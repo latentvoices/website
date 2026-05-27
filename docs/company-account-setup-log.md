@@ -8,7 +8,8 @@ Started: 2026-05-27 09:31:15 PDT
 | --- | --- | --- | --- | --- |
 | LinkedIn company page | social@latentvoices.ai | Latent Voices | Created | Public URL: `https://www.linkedin.com/company/latentvoices/`; needs logo and longer About description. |
 | GitHub organization/account | dev@latentvoices.ai | latentvoices | Created | Public URL: `https://github.com/latentvoices`; owner selected `smwade` ownership during submission. |
-| Social accounts | social@latentvoices.ai | latentvoices / latentvoicesai | Pending | Platform list not finalized yet. |
+| X | social@latentvoices.ai | latentvoices / latentvoicesai | Created externally | Sean created the account on phone; handle/public URL still needs confirmation in this log. |
+| Other social accounts | social@latentvoices.ai | latentvoices / latentvoicesai | Pending | Platform list not finalized yet. |
 
 ## Live Work Log
 
@@ -61,6 +62,10 @@ Started: 2026-05-27 09:31:15 PDT
 - 2026-05-27 09:50 PDT: Stopped before GitHub account verification and before accepting the GitHub Customer Agreement on behalf of the organization.
 - 2026-05-27 09:54 PDT: Sean completed GitHub verification/submission and selected organization ownership by `smwade`.
 - 2026-05-27 09:54 PDT: Verified GitHub organization creation at `https://github.com/latentvoices`; GitHub displays the organization as `LatentVoices`.
+- 2026-05-27 09:55 PDT: Opened X signup flow at `https://x.com/i/flow/signup`; X redirected to `https://x.com/i/jf/onboarding/web?mode=signup`.
+- 2026-05-27 09:55 PDT: Chrome blocked automation on the X page because another extension UI is open; Sean needs to dismiss that UI before Codex can continue.
+- 2026-05-27 09:57 PDT: Retried X setup after Sean said to continue. Chrome still reports that another extension UI is open on the X page and blocks automation; current URL observed as `https://x.com/`.
+- 2026-05-27 10:01 PDT: Sean created the X account on phone. Need to record final handle, public URL, verification status, and 2FA/recovery status.
 
 ## Repeatable Workflow Draft
 
@@ -134,13 +139,13 @@ Started: 2026-05-27 09:31:15 PDT
   - YouTube
   - TikTok
 - Per-platform record:
-  - Platform:
-  - Email:
-  - Handle:
+  - Platform: X
+  - Email: `social@latentvoices.ai`
+  - Handle: target `latentvoices`, fallback `latentvoicesai`
   - Public URL:
   - Verified:
   - 2FA/recovery configured:
-  - Follow-up:
+  - Follow-up: Sean created this account on phone; record final handle/public URL and harden security.
 
 ## Current Status
 

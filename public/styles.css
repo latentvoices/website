@@ -113,7 +113,9 @@ input {
 
 .hero__content {
   align-self: end;
-  width: min(100%, 760px);
+  width: 100%;
+  max-width: 760px;
+  min-width: 0;
   padding-bottom: clamp(10px, 3vw, 36px);
 }
 
@@ -136,7 +138,8 @@ h1 {
 }
 
 .line {
-  width: min(100%, 520px);
+  width: 100%;
+  max-width: 520px;
   margin: 24px 0 0;
   color: rgba(247, 244, 237, 0.74);
   font-size: clamp(18px, 2.2vw, 25px);
@@ -148,7 +151,8 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
-  width: min(100%, 520px);
+  width: 100%;
+  max-width: 520px;
   margin-top: 34px;
 }
 
@@ -264,13 +268,20 @@ h1 {
     margin-bottom: 14px;
   }
 
+  h1 {
+    font-size: clamp(48px, 14vw, 58px);
+  }
+
   .line {
+    width: 100%;
+    max-width: calc(100vw - 36px);
     margin-top: 18px;
   }
 
   .waitlist {
     display: grid;
     grid-template-columns: 1fr;
+    max-width: calc(100vw - 36px);
     margin-top: 28px;
   }
 
