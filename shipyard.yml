@@ -1,0 +1,15 @@
+version: 1
+app: latentvoices
+repo: /home/seanwade/git/latentvoices.git
+branch: main
+compose: docker-compose.yml
+public:
+  web:
+    service: web
+    port: 8080
+    domains:
+      - latentvoices.ai
+      - www.latentvoices.ai
+      - latentvoices.com
+      - www.latentvoices.com
+    health: /healthz

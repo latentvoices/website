@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Latent Voices</title>
+    <meta
+      name="description"
+      content="Latent Voices is a frontier AI research lab exploring tools for discovering and developing emerging voices."
+    >
+    <link rel="canonical" href="https://latentvoices.ai/">
+    <meta property="og:title" content="Latent Voices">
+    <meta
+      property="og:description"
+      content="A frontier AI research lab for ideas before they are obvious."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://latentvoices.ai/">
+    <meta property="og:image" content="https://latentvoices.ai/assets/latent-field.png">
+    <meta name="theme-color" content="#050607">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="preload" as="image" href="/assets/latent-field.webp">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="page-shell" aria-labelledby="site-title">
+      <section class="hero">
+        <div class="hero__image" aria-hidden="true"></div>
+        <div class="hero__shade" aria-hidden="true"></div>
+
+        <header class="nav" aria-label="Site header">
+          <a class="brand" href="/" aria-label="Latent Voices home">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>Latent Voices</span>
+          </a>
+          <a class="nav-link" href="mailto:social@latentvoices.ai">contact</a>
+        </header>
+
+        <div class="hero__content">
+          <p class="kicker">Frontier research</p>
+          <h1 id="site-title">Latent Voices</h1>
+          <p class="line">
+            Quiet systems for finding the signal just before it becomes language.
+          </p>
+
+          <form class="waitlist" id="waitlist-form" action="mailto:social@latentvoices.ai" method="post" enctype="text/plain">
+            <label class="sr-only" for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="email@domain.com" required>
+            <button type="submit">join waitlist</button>
+            <p class="form-note" id="form-note" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="below" aria-label="Research signals">
+        <p>model cognition</p>
+        <p>synthetic interviews</p>
+        <p>voice discovery</p>
+      </section>
+    </main>
+
+    <script src="/waitlist.js" defer></script>
+  </body>
+</html>
